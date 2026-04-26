@@ -130,6 +130,11 @@ select {
   border: 0;
 }
 
+/* Add vertical spacing between siblings, but not before the first item. */
+.flow > * + * {
+  margin-top: var(--flow-space, 1rem);
+}
+
 /* colors */
 .bg-dark {
   background-color: hsl(var(--clr-dark));
