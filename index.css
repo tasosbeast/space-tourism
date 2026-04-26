@@ -118,6 +118,24 @@ select {
   margin-inline: auto;
 }
 
+.section-spacing {
+  margin-block: 4rem;
+}
+
+.mr-label {
+  margin-right: 0.9375rem;
+}
+
+.color-sample {
+  padding: 3rem 1rem 1rem;
+  border: 1px solid white;
+}
+
+.flex-half {
+  flex-basis: 1 1 50%;
+  width: 50%;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
