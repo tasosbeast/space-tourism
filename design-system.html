@@ -183,7 +183,7 @@
           </nav>
         </div>
 
-        <div class="flex">
+        <div class="flex" style="--gap: 8rem">
           <div style="margin-top: 5rem">
             <a
               href="#"
@@ -192,7 +192,7 @@
             >
           </div>
 
-          <div style="margin-bottom: 80vh">
+          <div class="flow" style="margin-bottom: 80vh; --flow-space: 4rem">
             <!-- Tabs -->
             <div class="tab-list underline-indicators flex">
               <button
@@ -216,8 +216,25 @@
             </div>
 
             <!-- Dots -->
+            <div class="dot-indicators flex">
+              <button aria-selected="true">
+                <span class="sr-only">Slide title</span>
+              </button>
+              <button aria-selected="false">
+                <span class="sr-only">Slide title</span>
+              </button>
+              <button aria-selected="false">
+                <span class="sr-only">Slide title</span>
+              </button>
+            </div>
 
             <!-- Numbers -->
+
+            <div class="numbered-indicators flex">
+              <button aria-selected="true">1</button>
+              <button aria-selected="false">2</button>
+              <button aria-selected="false">3</button>
+            </div>
           </div>
         </div>
       </section>
