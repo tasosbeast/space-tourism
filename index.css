@@ -66,6 +66,9 @@ body {
   min-height: 100vh;
   background-color: hsl(var(--clr-dark));
   color: hsl(var(--clr-white));
+  display: grid;
+  grid-template-rows: auto 1fr;
+  overflow-x: hidden;
 }
 
 /* Make images easier to work with */
@@ -125,6 +128,9 @@ select {
       2rem,
       1fr
     );
+  justify-items: center;
+  align-items: center;
+  height: 100%;
 }
 
 .grid-container > *:first-child {
